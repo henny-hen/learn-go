@@ -4,7 +4,10 @@ import "fmt"
 
 func main() {
 
-	var al int = 2
-	fmt.Println(al)
+	var al, bobo = 2, 20
+
+	var bo int
+	bo = al + 20
+	fmt.Println(al, bo, bobo)
 
 }
